@@ -1,0 +1,11 @@
+server:
+  port: 8762
+  servlet:
+    context-path: /hi
+spring:
+  application:
+    name: serivce-provide-hi
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
